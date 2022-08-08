@@ -1,0 +1,29 @@
+ID	Summary	Severity	Priority	Deseription	Attachment
+1	"In the list sorting of numerical data
+in ascending order is incorrect"	     Major	    Medium	"STR:
+1. Add numbers to the list 17;28;5689;98;658;5874;58;45;9999;78.
+2. Set Range: All
+3. Set Legend: Numeric
+4. Set Sort: Ascending
+
+Actual result: Sorting is done in this order: 17;28;5689;98;5874;658;
+45;58;78;9999.
+
+Expected result: Sorted in ascending order: 17;28;45;58;78;98;658;
+5689;5874;9999."	
+					
+2	"Ability to enter the ""$"" sign"	     Minor	        Low	"STR:
+1. Run ListBoxer.exe
+2. Ability to enter the ""$"" sign
+
+Actual result: Invalid $ character entered
+
+Expected result: The $ symbol could not be entered"	
+					
+3	Program versions are displayed incorrectly	      Trivial	         Low	"STR:
+1. Run ListBoxer.exe
+2. Click Help > About ListBoxer
+
+Actual result: Version 1.89 specified
+
+Expected result: Version 1.98 specified"
