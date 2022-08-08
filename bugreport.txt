@@ -1,0 +1,40 @@
+ID	Summary	Severity	Priority	Deseription	Attachment
+1	"In numeric mode, the last rows are incorrectly
+displayed when sorting in descending order"	    Minor	   Medium	"STR:
+1. Add numbers to the list 5;3;4;2;1;0.
+2. Set Range: All
+3. Set Legend: Numeric
+4. Set Sort: Descending
+
+Actual result: Sorting is done in this order: 5;4;3;2;0;1.
+
+Expected result: Sorted in descending order: 5;4;3;2;1;0."	
+					
+2	"In character mode, the last rows are incorrectly
+displayed in descending order when sorting"	   Minor	   Medium	"STR:
+1. List letters: d;b;a;c;e
+2. Set Range: All
+3. Set Legend: Symbolic
+4. Set Sort: Descending
+
+Actual result: Sorting is done in this order: e;d;c;a;b
+
+Expected result: Sorted in descending order: e;d;c;b;a"	
+					
+3	"Submenus ""Cut"", ""Copy"", ""Paste"" do not work"	   Major	   Medium	"STR:
+1. Run ListBoxer.exe
+2. Enter arbitrary text in the input field and after entering select it
+3. Go to the ""Edit"" menu and select ""Cut"" or ""Copy"" or ""Paste""
+
+Actual result: And the menu ""Edjt"" submenu
+""Cut"" or ""Copy"" or ""Paste"" are not available
+
+Expected result: In the ""Edit"" menu, the ""Cut"" or ""Copy""
+or ""Paste"" submenus are available"	
+					
+4	Invalid menu name.	  Trivial	   Low	"STR:
+1. Run ListBoxer.exe
+
+Actual result: Menu ""Edjt"" is misspelled
+
+Expected result: Menu named ""Edit"""	
